@@ -2,7 +2,7 @@
 # Distributed under the terms of the Modified BSD License.
 ARG BASE_CONTAINER=jupyter/base-notebook
 #FROM $BASE_CONTAINER
-FROM images.sbgenomics.com/vladimirk/base-notebook-cuda:9.2
+FROM images.sbgenomics.com/vladimirk/base-notebook-cuda:10.1
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 
 USER root

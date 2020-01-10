@@ -6,7 +6,7 @@
 ARG BASE_CONTAINER=ubuntu:bionic-20191029@sha256:6e9f67fa63b0323e9a1e587fd71c561ba48a034504fb804fd26fd8800039835d
 #FROM $BASE_CONTAINER
 #FROM nvidia/cuda
-FROM images.sbgenomics.com/vladimirk/ubuntu18-04-cuda-9-2
+FROM nvidia/cuda:10.1-devel-ubuntu18.04
 
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 ARG NB_USER="jovyan"

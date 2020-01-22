@@ -14,3 +14,5 @@ RUN conda install -y tensorflow-gpu
 #    'tensorflow-gpu==2.0.0' && \
 #    fix-permissions $CONDA_DIR && \
 #    fix-permissions /home/$NB_USER
+#
+RUN apt-get update && apt-get install -y openvpn htop

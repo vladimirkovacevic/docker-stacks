@@ -15,4 +15,7 @@ RUN conda install -y tensorflow-gpu
 #    fix-permissions $CONDA_DIR && \
 #    fix-permissions /home/$NB_USER
 #
+conda install -c bioconda sevenbridges-python
+
+USER root
 RUN apt-get update && apt-get install -y openvpn htop
